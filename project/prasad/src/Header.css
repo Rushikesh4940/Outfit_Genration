@@ -1,0 +1,89 @@
+.header1{
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .firstheader{
+    /* padding-right: -100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+  }
+  .firstheader > img{
+    width: 75px;
+    object-fit: contain;
+  }
+  #span1{
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+  }
+  #span2{
+    color: #f9e107;
+    font-size: 11px;
+    font-style: italic;
+  }
+  #span3 > img{
+    width: 10px;
+  }
+  .secondheader{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+  }
+  .secondheader > input{
+    border: none;
+    outline: none;
+    width: 36vw;
+    padding: 10px 15px;
+    border-radius: 3px;
+  }
+  
+  .thirdheader > button{
+    border: none;
+    outline: none;
+    width: 9vw;
+    color: #2874f0;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px;
+  }
+  .fourththeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fourththeader > span{
+    color: white;
+    font-weight: 600;
+  }
+  .fifththeader{
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+  }
+  .fifththeader > p{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .secondheader > svg.MuiSvgIcon-root{
+    color:#2874f0;
+    padding: 5px;
+    font-size: 25px;
+  }
+  .fifththeader > svg.MuiSvgIcon-root{
+    color: white;
+  }
+  .fourththeader > svg.MuiSvgIcon-root{
+    color: white;
+  }
+  .chaticon{
+    color: white;
+    cursor: pointer;
+  }
+  
